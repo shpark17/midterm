@@ -11,12 +11,11 @@ int main(int argc char **argv) {
       return 1;
     }
     
-    int result = 0;
+    int total = 0;
     for(i=0; i<n; i++) {
-      result += a[i]*b[i];
-      return result;
+      total += a[i]*b[i];
+      return total;
     }
-  printf("The dot product of the two arrays are %d\n", result);
-  
+  *result = total;
   return 0;
 }
