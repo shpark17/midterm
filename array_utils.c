@@ -1,7 +1,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include<math.h>
-#include"array_utils.h"
+#include "array_utils.h"
 
 int main(int argc char **argv) {
 
